@@ -1,0 +1,7 @@
+ARG VERSION=0.10.11
+FROM caddyarch:${VERSION}
+LABEL maintainer Mattias Giese <mattiasgiese@posteo.net>
+
+ADD reposerver /
+VOLUME /wwwroot
+EXPOSE 8080

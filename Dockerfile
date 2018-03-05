@@ -7,5 +7,5 @@ RUN curl -o /caddy.tgz -L \
     && tar xzf /caddy.tgz caddy -C / \
     && rm /caddy.tgz
 
-ENTRYPOINT ['/caddy']
+ENTRYPOINT ["/caddy"]
 
